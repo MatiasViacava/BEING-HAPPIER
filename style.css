@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   min-height: 100vh;
-  background: darkseagreen;
+  background: cadetblue;
   justify-content: center;
   align-items: center;
 }
@@ -169,14 +169,22 @@ nav a:hover {
   margin: auto;
   width: 1100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 50px;
+  padding: 30px;
+  align-items: center;
+  text-align: justify;
 }
-.contanier .box {
+.box {
   position: relative;
   width: 320px;
-  background: #fff;
+  background: #ffffff;
   padding: 100px 60px 60px;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+}
+.containerServicios {
+  color: #642a73;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
 }
