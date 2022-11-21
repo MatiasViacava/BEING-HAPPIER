@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   min-height: 100vh;
-  background: cadetblue;
+  background: #f2f2f2;
   justify-content: center;
   align-items: center;
 }
@@ -45,7 +45,7 @@ body {
 }
 .contacto {
   height: 100%;
-  width: 100%;
+  width: 120%;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -136,7 +136,7 @@ a {
 header {
   min-height: 70px;
   display: flex;
-  background-color: black;
+  background-color: #212121;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
@@ -187,4 +187,85 @@ nav a:hover {
   font-size: 30px;
   text-align: center;
   margin-bottom: 10px;
+}
+
+/*FOOTER PAGINA WEB*/
+footer {
+  background-color: #212121;
+}
+.logofooter {
+  text-align: center;
+  margin: auto;
+}
+.logofooter img {
+  width: 150px;
+}
+.contenedorfooter {
+  margin: auto;
+  width: 900px;
+  display: flex;
+}
+.col1 {
+  width: 350px;
+  color: #707070;
+  font-family: sans-serif;
+}
+.col2 {
+  width: 350px;
+  color: #707070;
+  font-family: sans-serif;
+}
+.col2 img {
+  width: 40px;
+  margin: 7px;
+}
+.col1 h1 {
+  margin-bottom: 15px;
+}
+.col1 p {
+  margin-bottom: 10px;
+}
+.col2 .instagram {
+  display: flex;
+  align-items: center;
+}
+.col2 .facebook {
+  display: flex;
+  align-items: center;
+}
+.col2 .linkedin {
+  display: flex;
+  align-items: center;
+}
+.col2 h1 {
+  margin-bottom: 15px;
+}
+.col3 {
+  width: 300px;
+  color: #707070;
+  font-family: sans-serif;
+}
+.col3 h1 {
+  margin-bottom: 15px;
+}
+.col3 p {
+  margin-bottom: 10px;
+}
+.final {
+  width: 1200px;
+  height: 100px;
+  color: #707070;
+  margin: auto;
+}
+.copy {
+  width: 600px;
+  float: left;
+  text-align: left;
+  margin-top: 50px;
+}
+.politicas {
+  width: 600px;
+  float: right;
+  text-align: right;
+  margin-top: 50px;
 }
